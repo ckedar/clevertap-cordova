@@ -6,7 +6,6 @@
     <application android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name" android:supportsRtl="true" android:name="com.clevertap.android.sdk.Application">
         <meta-data android:name="CLEVERTAP_ACCOUNT_ID" android:value="8RK-9Z4-W54Z" />
         <meta-data android:name="CLEVERTAP_TOKEN" android:value="41c-32b" />
-        <meta-data android:name="CLEVERTAP_NOTIFICATION_ICON" android:value="notification_icon"/>
 
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale" android:label="@string/activity_name" android:launchMode="singleTop" android:name="MainActivity" android:theme="@android:style/Theme.Black.NoTitleBar" android:windowSoftInputMode="adjustResize">
             <intent-filter android:label="@string/launcher_name">

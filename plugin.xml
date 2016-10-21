@@ -107,6 +107,8 @@
 
             <meta-data android:name="CLEVERTAP_ACCOUNT_ID" android:value="$CLEVERTAP_ACCOUNT_ID" />
             <meta-data android:name="CLEVERTAP_TOKEN" android:value="$CLEVERTAP_TOKEN" />
+            <meta-data android:name="CLEVERTAP_NOTIFICATION_ICON" android:value="notification_icon"/>
+
             <activity android:configChanges="orientation|keyboardHidden" android:name="com.clevertap.android.sdk.InAppNotificationActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 <!--
             <receiver android:exported="true" android:name="com.clevertap.android.sdk.InstallReferrerBroadcastReceiver">
